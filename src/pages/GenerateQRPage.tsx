@@ -26,7 +26,14 @@ const GenerateQRPage = () => {
           />
         </div>
 
-        <p className="mt-6 text-xs text-gray-500 break-all">{localURL}</p>
+        <a
+          href={localURL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 text-xs text-blue-600 hover:underline break-all inline-block"
+        >
+          {localURL}
+        </a>
       </div>
     </div>
   );
