@@ -1,4 +1,3 @@
-import React from 'react';
 
 const StepInstructions = ({ onNext }: { onNext: () => void }) => (
   <div className="space-y-6 text-center">

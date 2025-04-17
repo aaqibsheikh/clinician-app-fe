@@ -1,5 +1,4 @@
-// Updated StepForm/index.tsx with slight enhancements
-import React, { useState } from "react";
+import { useState } from "react";
 import StepInstructions from "./StepInstructions";
 import StepPhotoUpload from "./StepPhotoUpload";
 import StepVoiceNote from "./StepVoiceNote";
