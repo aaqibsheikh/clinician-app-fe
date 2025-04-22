@@ -1,8 +1,7 @@
 import { QRCodeSVG } from "qrcode.react";
-import { v4 as uuidv4 } from "uuid";
 
 const GenerateQRPage = () => {
-  const formId = uuidv4(); // Generate unique ID
+  const formId = "abc123"; // Hardcoded form ID
   const localURL = `${window.location.origin}/form/${formId}`;
 
   return (
@@ -12,8 +11,7 @@ const GenerateQRPage = () => {
           Share Patient Form
         </h1>
         <p className="text-sm text-gray-600 mb-6">
-          Scan the QR code below to open a unique upload form. This link is
-          specific to this session.
+          Scan the QR code below to open the upload form.
         </p>
 
         <div className="w-full max-w-xs mx-auto">

@@ -117,9 +117,9 @@ const StepVoiceNote = ({
         </button>
         <button
           onClick={onNext}
-          disabled={isRecording}
+          disabled={isRecording || !audio}
           className={`px-4 py-2 rounded text-white ${
-            isRecording
+            isRecording || !audio
               ? 'bg-gray-400 cursor-not-allowed'
               : 'bg-blue-600 hover:bg-blue-700'
           }`}
