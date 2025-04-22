@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const StepInstructions = ({ onNext }: { onNext: () => void }) => {
   const [name, setName] = useState("");
